@@ -17,3 +17,13 @@ h1{
     /* Photo by Paweł Czerwiński on Unsplash*/
     
 }
+
+#header1{
+
+    background-image: url(2.jpeg);
+    background-repeat: no-repeat;
+    height: 10;
+    background-size: 40vh;
+    background-position-x: right;
+    background-position-y: 100;
+}
