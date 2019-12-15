@@ -1,6 +1,7 @@
-Web Developer:
-ChillVibes LLC
-2019/Current
+Software Developer:
+
+Portfolio link:
+https://skruggle.github.io/Portfolio/
 
 Frontend:
 • HTML
