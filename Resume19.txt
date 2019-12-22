@@ -1,7 +1,7 @@
-Full Stack Developer:
-
 Portfolio link:
 https://skruggle.github.io/Portfolio/
+
+Full Stack Developer:
 
 Frontend:
 • HTML
@@ -10,7 +10,6 @@ Frontend:
 
 Backend:
 • Python
-• Django
 • PHP
 • MySQL
 
