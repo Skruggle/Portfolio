@@ -1,104 +1,65 @@
-body {background-image: url(1.jpg);
-    background-size: cover;
+body {
+    background-image: url(1.jpeg);
+    background-size: 1400px;
     background-repeat: no-repeat;
 }
-.loginbox{
-    width: auto;
-    height: auto;
-    top: 860px;
-    left: 100px;
+
+/*Header*/
+.p {
+    text-align: center;
+    font-size: 25px;
+    background: transparent;
+    color: gray;
+    top: 35%;
+    left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
-    box-sizing: border-box;
-    padding: 60px 10px;
     font-family: l;
+    list-style-type: none;
 }
 
-.loginbox p{
-    margin: 0;
-    padding: 0;
-    font-weight: auto;
-}
-
-.loginbox input{
-    width: 100%;
-    margin-bottom: auto;
-}
-
-
-.loginbox input[type="submit"]
+.p :hover
 {
-    border: none;
-    outline: none;
-    height: 40px;
+ color: black;
+ background-color: #fb2525;
+}
+
+/*Source Button*/
+.loginbox [type="submit"]
+{
+    text-decoration: none;
+    font-size: 25px;
+    color: chartreuse;
+    padding: 3px;
+    border:1px solid black;
+}
+
+.loginbox [type="submit"]{
+    border-radius: 50px;
+    background-color: black;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.loginbox :hover
+{
+    border:black;
+    font-size: 25px;
+    background: chartreuse;
     background: #fb2525;
     color: #fff;
-    font-size: 18px;
-    border-radius: 20px;
+    border-radius: 100px;
 }
 
-.loginbox input[type="submit"]:hover
-{
-    cursor: pointer;
-    background: chartreuse;
-    color: #000;
-}
-
-
-.button a{
-    margin: 0;
-    padding: 0;
-    font-weight: auto;
-    width: 100%;
-    margin-bottom: auto;
-}
-
-.button a{
-    border: none;
-    outline: none;
-    height: 40px;
-    background: red;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 25px;
-    text-decoration: none;
-}
-
-.button a{
-    width: auto;
-    height: auto;
-    background: red;
-    color: white(196, 87, 15);
-    top: 860px;
-    left: 260px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    box-sizing: border-box;
-    padding: 10px 10px;
-    font-family: l;
-}
-.button a:hover
-{
-    cursor: pointer;
-    background: chartreuse;
-    color: #000;
-}
-
-#footer {
+footer {
+    
     text-align: center;
-    padding: 25px;
     color: rgb(29, 196, 160);
-}
-
-
-.p{
-    border: none;
-    outline: none;
-    color: transparent;
-    font-size: 18px;
-    border-radius: 20px;
-}
-.p :hover{
-color: white;
+    padding: 100px;
+    position: absolute;
+    top: 80%;
+    left: 37%;
 
 }
+

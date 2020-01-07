@@ -2,101 +2,53 @@ body {
     background-image: url(2.jpg);
     background-size: auto;
     background-repeat: no-repeat;
-
 }
 
-.loginbox{
-    width: auto;
-    height: auto;
+/*Header*/
+h1{
+    text-align: center;
+    font-size: 50px;
     background: transparent;
-    color: rgb(196, 87, 15);
-    top: 45%;
+    color: white;
+    top: 35%;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
-    box-sizing: border-box;
-    padding: 60px 10px;
     font-family: l;
+    list-style-type: none;
 }
 
-.avatar{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+/*Source Button*/
+.source a{
+
+    text-decoration: none;
+    font-size: 25px;
+    color: chartreuse;
+    padding: 3px;
+    border:1px solid black;
+    border-radius: 100px;
+    background-color: black;
     position: absolute;
-    top: -25px;
-    left: calc(70% - 50px);
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
 }
 
-h1{
-    margin: 10;
-    padding: 0 0 50px;
-    text-align: center;
-    font-size: 50px;
-}
-
-.loginbox p{
-    margin: 0;
-    padding: 0;
-    font-weight: auto;
-}
-
-.loginbox input{
-    width: 100%;
-    margin-bottom: auto;
-}
-
-.loginbox input[type="text"], input[type="password"]
+.source a[class="source"]:hover
 {
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 40px;
-    color: #fff;
-    font-size: 16px;
-}
-
-.loginbox input[type="submit"]
-{
-    border: none;
-    outline: none;
-    height: 40px;
+    border:black;
+    font-size: 25px;
+    background: chartreuse;
     background: #fb2525;
     color: #fff;
-    font-size: 18px;
-    border-radius: 20px;
+    border-radius: 1;
 }
 
-.loginbox input[type="submit"]:hover
-{
-    cursor: pointer;
-    background: chartreuse;
-    color: #000;
-}
-
-.loginbox a{
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 20px;
-    color: darkgrey;
-}
-
-.loginbox a:hover
-{
-    color: purple;
-}
-
-img {
-    max-width:100%;
-    height:auto;
-}
-
-#footer {
+footer {
+    
     text-align: center;
-    padding: 25px;
     color: rgb(29, 196, 160);
-
-
-
+    padding: 500px;
 }
+
